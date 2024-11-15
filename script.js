@@ -1,3 +1,4 @@
+// This is just Quote Generate Code.
 const randomQuote = [
     'Believe in yourself! Have a faith in your abilities! Without a humble but reasonable confident in your own powers you cannot be successful or happy.',
     'Life is 10% what happens to you 90% how you react to it.',
@@ -12,7 +13,7 @@ const button = document.querySelector('#button');
 
 
 button.addEventListener('click', function(){
-   const quoteIndex = Math.floor(Math.random() * 5);
+   const quoteIndex = Math.floor(Math.random() * randomQuote.length);
 //    console.log(quoteIndex);
    quoteElement.textContent = randomQuote[quoteIndex];
 });
