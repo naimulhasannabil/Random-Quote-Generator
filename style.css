@@ -16,6 +16,7 @@ body {
   background-image: url(img/project.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  /* object-fit: cover; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -52,4 +53,5 @@ body {
     border-radius: 5px;
     border: 0px;
     margin: 10px auto 0;
+    cursor: pointer;
 }
